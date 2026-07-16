@@ -1497,4 +1497,60 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH90P2:END-->
+<!--WY-BH90P3:BEGIN-->
+<style id="wy-bh90p3-css">
+.bh90p3-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh90p3-fabbox.show{display:block;}
+.bh90p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh90p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh90p3-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh90p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh90p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh90p3-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh90p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh90p3-modal.open{display:flex;}
+.bh90p3-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh90p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh90p3-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh90p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh90p3-close:hover{background:#dde2e6;}
+.bh90p3-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh90p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh90p3-tbl th,.bh90p3-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh90p3-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh90p3-tbl thead th:nth-child(1){width:32%;}.bh90p3-tbl thead th:nth-child(2){width:41%;}.bh90p3-tbl thead th:nth-child(3){width:27%;}
+.bh90p3-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh90p3-guan{background:#eef2f5;color:#37505f;}
+.bh90p3-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh90p3-tbl tbody tr:nth-child(even) td.bh90p3-guan{background:#e8eef2;}
+.bh90p3-tbl b{color:#8b2500;}
+.bh90p3-guan b{color:#2f6b5a;}
+.bh90p3-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh90p3-note b{color:#8b2500;}
+@media(max-width:900px){.bh90p3-fabbox{right:14px;}.bh90p3-tbl{font-size:11px;}.bh90p3-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh90p3-fabbox" id="bh90p3Box"><button class="bh90p3-btn" id="bh90p3Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh90p3-ic">譯</span><span class="bh90p3-ls"><span class="bh90p3-l1">本品 · 原文·白話·中觀</span><span class="bh90p3-l2">白話翻譯表</span></span></button></div><div class="bh90p3-modal" id="bh90p3Modal" role="dialog" aria-modal="true"><div class="bh90p3-card"><button class="bh90p3-close" id="bh90p3Close" type="button" aria-label="關閉">×</button><h3>卷九十 · 大悲與實際拓樸學序論（十二因緣逆推·風吹絕焰喻） · 原典 白話翻譯表</h3><p class="sub">《大智度論》卷九十 · 釋實際品第八十 · 經文原典（鳩摩羅什譯·龍樹菩薩造）· 原文↔白話↔中觀概念 逐段對照</p><table class="bh90p3-tbl"><caption>《大智度論》卷90·第三品 大悲與實際拓樸學序論 經文原典·原文｜白話翻譯｜中觀概念（共14段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh90p3-src">云何滅是苦？尋苦因緣，由生故，如佛十二因緣中說：「何因緣故有老、病、死？以有生故。」</td><td>要如何滅除這樣的痛苦呢？追溯痛苦生起的因緣，是由於『生』的緣故；正如佛陀在十二因緣法中所說：『是什麼因緣導致有老、病、死呢？是因為有「生」的緣故。』</td><td class="bh90p3-guan"><b>逆溯苦因·以十二因緣為診斷起點</b>——本節承接須菩提「菩薩為度眾生發大悲心，何以言為實際」的詰問，論主先不直接辯論本體論，而是從最貼近眾生經驗的『苦』下手，援引十二因緣「生緣老死」的教說，展開一條由現象逆推根本病因的論證路徑，為後文層層下推至『無明』鋪墊。</td></tr><tr><td class="bh90p3-src">問曰：一切菩薩見眾生苦惱，為度眾生故發大悲心，今何以言為實際？</td><td>問道：一切菩薩見到眾生受苦受惱，是為了救度眾生才發起大悲心的，那為什麼現在卻說（菩薩修行般若波羅蜜）是為了『實際』呢？</td><td class="bh90p3-guan"><b>入世悲心與出世實相的表面張力</b>——此問直指本品核心悖論：菩薩發大悲心，其對象明明是活生生受苦受難的眾生，為何佛陀卻說菩薩之所行歸根究底是『為實際』？大悲的『入世』面向與實際的『出世』面向，在此構成一組看似互斥的張力，正是本品要層層化解的問題意識。</td></tr><tr><td class="bh90p3-src">答曰：初發意菩薩但為滅眾生苦故發大悲心。苦者，所謂老、病、死等，及身心衰惱。</td><td>答道：初發心的菩薩，最初只是單純為了滅除眾生的痛苦，才發起大悲心的。這裡所說的『苦』，指的就是老、病、死等等，以及身心的衰敗惱亂。</td><td class="bh90p3-guan"><b>次第說法·先立世俗悲心為修行起點</b>——佛陀（論主）的回答並不急於揭示終極答案，而是先承認、肯定初發意菩薩大悲心的世俗起點——單純為滅除眾生可見可感的老病死之苦。這是一種次第說法的教學策略：先安立世俗諦的悲心動機，再逐步引導深入到『實際』的第一義諦，避免初學者因驟然聽聞空義而退失道心。</td></tr><tr><td class="bh90p3-src">復次，鞭杖、刀兵、愁惱，皆由生故有。餘法或有苦、或無苦，是生法必定有苦。正使大智及諸天，有生必有死，有死必有苦，是故知「生定是苦本」。如草木有生故，必可焚燒；若當不生，雖有猛火、大風，無所燒害。</td><td>再者，被鞭打杖擊、遭遇刀兵戰亂、心懷憂愁煩惱，這些痛苦也都是因為有『生』才會存在。除此之外的其他事物，有的會帶來痛苦、有的不會，但『生』這件事，卻是必定會帶來痛苦的。即使是擁有大智慧的人以及諸天神，只要有生，就必定有死；有死，就必定有苦；因此可以確知：『生，必定是痛苦的根本。』這就好比草木，因為有生長，所以必定可以被焚燒；如果它們本來就不曾生長，那麼即使遇上猛烈的大火、狂風，也不會有被燒毀的可能。</td><td class="bh90p3-guan"><b>草木喻·生為苦本的普遍必然性</b>——此段以『生』作為一切苦的共同分母：其他痛苦（鞭杖刀兵愁惱）或有或無，唯獨『生』所帶來的死苦是必然的、無一例外的，即便大智者與諸天亦不能倖免。草木喻精妙之處在於：可燃性並非草木之外強加的屬性，而是『有生』本身內在蘊含的必然結果——同理，死苦也不是外在強加於生命的懲罰，而是『生』這件事本身邏輯地蘊含的後果，這正是十二因緣『此有故彼有』的具體演繹。</td></tr><tr><td class="bh90p3-src">問曰：一切眾生皆知生因緣是苦，菩薩有何奇特？</td><td>問道：一切眾生其實都知道『生』這個因緣會帶來痛苦，那麼菩薩（對這個道理的體悟）又有什麼特別、奇特之處呢？</td><td class="bh90p3-guan"><b>詰問菩薩智慧的獨特性何在</b>——此問看似簡單，實則銳利：如果『生是苦本』是眾生皆知的常識，菩薩所證得的智慧與凡夫的普通認知，究竟有何本質差異？這一問把討論從『苦的內容是什麼』推進到『對苦的認知方式有何不同』，逼出下文對凡夫『不知真實苦因』的深刻剖析。</td></tr><tr><td class="bh90p3-src">答曰：眾生不知由生有苦，若遭苦時，但怨恨人，自不將適，初不怨生；以是故增長結使、重增生法，不知真實苦因。有人無鞭杖、刀兵、諸愁惱苦，而有死苦；此死從何所來？從生而有。</td><td>答道：一般眾生並不真正明白痛苦是由『生』而來的；當他們遭遇痛苦時，往往只是一味怨恨他人，或怪罪自己照顧不周，卻從來不曾怨怪『出生』這件事本身；正因如此，煩惱結使不斷增長、招感痛苦的業因不斷加重，始終不能認識到真正的苦因所在。試看有些人，並沒有遭受鞭打、刀兵戰亂、種種憂愁煩惱之苦，卻仍然逃不過死亡之苦；這死亡究竟是從哪裡來的呢？正是從『生』而有的。</td><td class="bh90p3-guan"><b>凡夫的認知錯位·怨人不怨生</b>——本段精準診斷凡夫痛苦認知的根本謬誤：面對痛苦時，凡夫的歸因總是指向外在的人事（怨恨他人）或自身照顧不周（自不將適），卻從未觸及『生』這個真正的源頭；這種歸因錯位不但不能滅苦，反而使煩惱結使不斷增長、加重未來受生的業因，形成惡性循環。『無鞭杖刀兵愁惱苦而有死苦』的例子尤其有力：即便排除一切外緣的苦難，死苦依然如影隨形，證明死苦的根源只能追溯到『生』本身，而非任何外在條件。</td></tr><tr><td class="bh90p3-src">菩薩既得苦因緣，復推生因緣。生因緣者，有。「有」有三種：欲有、色有、無色有。著是三有，起善惡業，是生因。有因者，四種取。取因緣者，愛等諸煩惱。小者未能起業，故名為愛；增長能起業，故名為取：欲取、見取、戒取、我語取。取著是四事故，能起種種業。</td><td>菩薩既然已經掌握了『苦』的因緣所在，便進一步推究『生』的因緣。導致『生』的因緣，是『有』。『有』又分為三種：欲界之有、色界之有、無色界之有。眾生執著於這三種『有』，因而造作種種善業惡業，這就是導致受生的原因。而『有』的因緣，則是四種『取』。導致『取』的因緣，是『愛』等種種煩惱。當這煩惱還微弱、尚不足以引發造業行為時，稱之為『愛』；當它增長到足以引發造業行為時，就稱之為『取』：包括欲取、見取、戒取、我語取四種。正因為執著這四件事，才能夠引發種種業行。</td><td class="bh90p3-guan"><b>十二因緣逆推鏈·從苦到生到有到取到愛</b>——菩薩對苦因緣的探究不是停留在『生』這一層，而是繼續層層逆推：生的因緣是『有』（三界之有），有的因緣是『取』，取的因緣是『愛』。這一段精細地區分了『愛』與『取』的差異——同一煩惱在強度未足以驅動造業時稱愛，增長到足以驅動造業時稱取——顯示十二因緣並非僅是抽象範疇的排列，而是對煩惱如何從潛伏心念逐步發展為具體業行的動態心理歷程的精密描述。</td></tr><tr><td class="bh90p3-src">愛因緣，三種受。受因緣者，眼等六種觸。觸名受等諸心數法。情、塵、識三事和合故，心中生受等心數法；根本雖三事，和合故生觸，為六情依止住處故，但說六入。</td><td>『愛』的因緣，是三種『受』（苦受、樂受、不苦不樂受）。而『受』的因緣，則是眼等六種『觸』（六根接觸六塵所生的觸）。所謂『觸』，指的是能引生『受』等種種心理作用（心數法）的那個機制。由於根（情）、塵（外境）、識（了別作用）三者和合的緣故，心中才會生起『受』等種種心理作用；雖然根本上是這三事和合，但因為和合而產生『觸』，而『觸』又是六根（六情）得以依止安住之處，所以總說為『六入』。</td><td class="bh90p3-guan"><b>根塵識三事和合·觸受生起的心理機制</b>——此段解析十二因緣中『愛』向上追溯至『受』、『觸』、『六入』的心理生起機制：根、塵、識三者和合方能生觸，觸又進一步生受，這是佛教心理學對感知經驗如何從純粹的生理接觸轉化為帶有苦樂評價的『受』，再進一步催生『愛』的執取，所作的精密剖析——每一環節都是條件性的和合產物，沒有一個獨立不變的『感受主體』貫穿其中。</td></tr><tr><td class="bh90p3-src">六入因緣，名色。六入雖即是名色分，成就名六入，未成就名名色；色成就名五入，名成就名一入。是胎中時因緣次第。名色因緣，是識。若識不入胎，胎初則爛壞。識名中陰中五眾。是五眾細故，但名為識。若識不入而胎成者，如一切和合時，皆應成胎！</td><td>『六入』的因緣，是『名色』。六入雖然本質上就是名色的一部分，但當它發育成熟時稱為『六入』，尚未成熟時則稱為『名色』；當『色』（身體物質部分）發育成熟時，稱為『五入』（五種感官），當『名』（精神部分）發育成熟時，稱為『一入』（意入）。這是胎兒在母胎中發育過程的因緣次第。而『名色』的因緣，則是『識』。如果沒有『識』進入母胎，那麼受胎之初，胎兒便會腐爛毀壞。這裡的『識』，指的是中陰身中的五蘊（五眾）。因為這五蘊極為微細，所以才稱之為『識』。如果不需要『識』進入母胎，胎兒也能成形的話，那麼只要精血等物質條件和合，應當隨時都能成胎才對（但事實並非如此）！</td><td class="bh90p3-guan"><b>識入胎為受生關鍵·反證識非可有可無</b>——本段細膩描述胎兒發育中『名色』與『六入』的次第轉化，並將論證焦點引向『識』作為受生不可或缺的條件。末句「若識不入而胎成者，如一切和合時，皆應成胎」採用歸謬法：若識並非受胎的必要條件，那麼只要物質條件（精血等）和合，任何時候都應該能成胎，但事實顯然不是如此——由此反證『識』入胎確實是受生鏈條中不可或缺的一環，為下文追問『識何因緣故入胎』預留伏筆。</td></tr><tr><td class="bh90p3-src">問曰：識何因緣故入胎？</td><td>問道：『識』究竟是憑藉什麼樣的因緣，才會進入母胎的呢？</td><td class="bh90p3-guan"><b>追問識入胎的驅動力</b>——承接上段『識為受生關鍵』的論證，此問順勢追問：既然識是受胎不可或缺的條件，那麼驅使識進入母胎的因緣又是什麼？這一問把十二因緣的逆推鏈條，從『識』進一步推向更根本的『行』。</td></tr><tr><td class="bh90p3-src">答曰：行因緣。行即是過去三種業，業將識入胎。如風吹絕焰，空中而去，焰則依止於風；先世作人身時然六識故，命終時，業將識入胎。</td><td>答道：（識入胎）是『行』這個因緣所致。所謂『行』，就是過去世所造作的三種業（身、口、意業），正是這業力，牽引著『識』進入母胎。這就好比狂風吹熄了火焰，火焰隨風飄散於空中，而這飄散的火焰，其實仍然依止、憑藉著風力而動；同樣的道理，過去世作人身時，由六識所造作的種種業因，到了命終之時，便是這業力牽引著『識』進入母胎。</td><td class="bh90p3-guan"><b>風吹絕焰喻·業力牽識入胎而無實體遷移</b>——這是十二因緣中最精妙的譬喻之一：火焰被風吹滅、隨風飄散，看似有一道『火焰』在空中移動，但其實並沒有一個實體的『焰』在遷移，只是風力（業）的作用使然。同理，命終之後『識』入胎，並非有一個恆常不變的靈魂實體從此身遷移到彼身，而是業力（行）驅動的相續作用——這正是佛教『無我』教義與『業力不失』教義如何並存不悖的關鍵譬喻，避免了『識』被誤解為輪迴中的恆常主體。</td></tr><tr><td class="bh90p3-src">是行因緣名無明。一切煩惱雖是過去業因緣，無明是根本故，但名無明。今世現在著愛、取多故，愛、取愛名；過去世中是疑、邪見處故，但名無明。今得一切苦惱根本，是無明。</td><td>而『行』的因緣，稱為『無明』。一切煩惱雖然都可以算是過去業行的因緣，但因為『無明』是這一切煩惱的根本，所以特別稱之為『無明』。就今生現世來說，眾生執著愛、取的情況較多，所以特別以『愛』、『取』來命名；而就過去世來說，則多是疑惑、邪見所在之處，所以特別稱之為『無明』。由此可知，如今能夠獲得一切苦惱的根本原因，正是這個『無明』。</td><td class="bh90p3-guan"><b>無明為煩惱總相·愛取為無明的今世別名</b>——龍樹在此點出一個精妙的命名學問題：無明、愛、取三者其實都同屬煩惱範疇，並非截然不同的三個獨立實體，只是依所屬時態（過去世／現在世）與側重面向的不同而有不同的稱呼——過去世側重疑惑邪見的面向，稱為無明；現世側重貪著追求的面向，稱為愛取。這提醒讀者：十二因緣的每一支雖然分別立名，但彼此之間並非涇渭分明的獨立實體，而是同一煩惱之流在不同階段、不同面向上的假名施設。</td></tr><tr><td class="bh90p3-src">問曰：上業何以名有？今業何以名行？</td><td>問道：前面所說的『業』為什麼稱作『有』？而這裡所說的『業』又為什麼稱作『行』呢？</td><td class="bh90p3-guan"><b>釐清同為業卻異名的緣由</b>——此問注意到十二因緣中『有』與『行』看似都指向『業』，卻使用不同的名稱，因而追問其命名差異背後的道理，這是對經教用語精確性的細膩考究，體現論主一貫『依名求實』的解經態度。</td></tr><tr><td class="bh90p3-src">答曰：上是「今世業，為未來有，故名為有」；今「業過去世已滅盡，但有名，名為行」（天竺語「刪迦羅」，秦言「行」）。</td><td>答道：前面所說的，是指今生現世所造的業，將會招感未來世的果報之『有』，所以稱之為『有』；而這裡所說的，是指過去世所造的業，如今已經滅盡消逝，只剩下一個名相上的稱謂，所以稱之為『行』（這是天竺梵語「刪迦羅」的意譯，秦地漢語翻譯為「行」）。</td><td class="bh90p3-guan"><b>有與行的時態差異·同業異名的深層邏輯</b>——這一問一答揭示：『有』與『行』本質上同屬『業』，差別僅在於觀察的時間點——尚未結果、指向未來的業稱為『有』，已經造作完畢、成為過去的業則稱為『行』。這種同一事物依時態差異而異名的命名法，正呼應了上一段『無明』與『愛取』依時態異名的邏輯，顯示十二因緣的支分劃分本質上是一套精密的時間性分析架構，而非本體論上截然分立的十二個實體。</td></tr></tbody></table><p class="bh90p3-note">本表為卷九十第三品「大悲與實際拓樸學序論」經文原典的原文·白話·中觀三欄逐段對照，含四番問答，白話忠於原意、不增不減。　中觀關鍵詞：入世悲心與出世實相的表面張力　草木喻生為苦本的普遍必然性　凡夫的認知錯位怨人不怨生　十二因緣逆推鏈從苦到生到有到取到愛　風吹絕焰喻業力牽識入胎而無實體遷移　無明為煩惱總相愛取為無明的今世別名　有與行的時態差異同業異名的深層邏輯</p></div></div>
+<script id="wy-bh90p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh90p3Btn"),BOX=document.getElementById("bh90p3Box"),MODAL=document.getElementById("bh90p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+var CBOX=document.getElementById("c90p3Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh90p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH90P3:END-->
 </body></html>
